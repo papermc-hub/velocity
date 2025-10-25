@@ -6,6 +6,13 @@ Velocity is the modern, high-performance proxy. Designed with performance and st
 
 🔗 You can find **Velocity** versions and builds [here](https://papermc.io/downloads/velocity).
 
+## 🧱 Build information
+[All images](https://github.com/papermc-hub/velocity/pkgs/container/velocity) in this repository are built using:
+`Eclipse Temurin JRE 25 Alpine 3.22`
+and are available for following platforms:
+- linux/amd64
+- linux/arm64
+
 ## 🚀 Quick start
 
 ### 1. Run container:
