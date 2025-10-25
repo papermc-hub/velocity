@@ -7,7 +7,7 @@ Velocity is the modern, high-performance proxy. Designed with performance and st
 🔗 You can find **Velocity** versions and builds [here](https://papermc.io/downloads/velocity).
 
 ## 🧱 Build information
-[All images](https://github.com/papermc-hub/velocity/pkgs/container/velocity) in this repository are built using:
+[All images](https://github.com/papermc-community/velocity/pkgs/container/velocity) in this repository are built using:
 `Eclipse Temurin JRE 25 Alpine 3.22` as runtime,
 and are available for following platforms:
 - linux/amd64
@@ -21,7 +21,7 @@ and are available for following platforms:
 docker run -dit \
   --name <container-name> \
   -p 25565:25565 \
-  ghcr.io/papermc-hub/velocity:3.4.0-SNAPSHOT-555
+  ghcr.io/papermc-community/velocity:3.4.0-SNAPSHOT-555
 ```
 
 ### 2. Attach to the console
@@ -51,7 +51,7 @@ docker run -dit \
   --name <container-name> \
   -p 25565:25565 \
   -v <path-to-your-plugins>:/app/plugins \
-  ghcr.io/papermc-hub/velocity:3.4.0-SNAPSHOT-555
+  ghcr.io/papermc-community/velocity:3.4.0-SNAPSHOT-555
 ```
 
 💡 **Recommendation:**
