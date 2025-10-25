@@ -8,7 +8,7 @@ Velocity is the modern, high-performance proxy. Designed with performance and st
 
 ## 🧱 Build information
 [All images](https://github.com/papermc-hub/velocity/pkgs/container/velocity) in this repository are built using:
-`Eclipse Temurin JRE 25 Alpine 3.22`
+`Eclipse Temurin JRE 25 Alpine 3.22` as runtime,
 and are available for following platforms:
 - linux/amd64
 - linux/arm64
@@ -63,3 +63,6 @@ For data persistence and easier configuration management, it's recommend to moun
 |-----------------------|----------------------------------------------|-------------------------------------------------------------------------------|
 | `INTERNAL_PORT`       | 25565                                        | The internal TCP port **Velocity** listens on - also used by the healthcheck. |
 | `JAVA_TOOL_OPTIONS`   | `"-Xms512m -Xmx1024m -Dfile.encoding=UTF-8"` | JVM runtime options.                                                          |
+
+💡 **Recommendation:**
+It's recommend to fine-tune `JAVA_TOOL_OPTIONS` based on your hardware and workload.
