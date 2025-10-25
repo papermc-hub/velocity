@@ -26,6 +26,8 @@ docker run -dit \
 
 ### 2. Attach to the console
 
+⚠️ **Note:** Attaching to the console only works if the container was started in **interactive mode**, for example using the `-it` or `-dit` (with detached) flag.
+
 You can attach to the running **Velocity** console with:
 ```bash
 docker attach <container-name>
